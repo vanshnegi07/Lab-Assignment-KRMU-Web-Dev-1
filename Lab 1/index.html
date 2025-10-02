@@ -1,0 +1,116 @@
+<!-- 
+Project Name: Portfolio Project
+Page Name: index.html
+Author: Vansh Negi
+Description: One-page portfolio website about me.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vansh Negi - Portfolio</title>
+</head>
+<body>
+  <!-- Accessibility: Skip to main content -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Header with Navigation -->
+  <header>
+    <h1>Vansh Negi</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main">
+    <!-- Hero Section -->
+    <section id="hero">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Hey there!  I am Vansh, a Computer Science student passionate about AI, ML, and Web development.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="file:///Users/vanshnegi/profile.jpg" alt="Profile Picture of Vansh Negi" width="200" height="200">
+      <p>I am currently pursuing BTech in Computer Science with a specialization in AI & ML in KR Mangalam University. I love building projects, learning new technologies, and exploring innovative solutions in software development.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <article>
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive and accessible portfolio website built using HTML, CSS, and JavaScript.</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Library Management System</h3>
+            <p>A database-driven project developed with Java and MySQL to manage library records efficiently.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Skills Section with Table -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table border="1" cellpadding="8">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Proficiency Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML, CSS, JavaScript</td>
+            <td>beginner</td>
+          </tr>
+          <tr>
+            <td>Python, Java</td>
+            <td>beginner</td>
+          </tr>
+          <tr>
+            <td>MySQL</td>
+            <td>Advance</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea><br><br>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Vansh Negi | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
